@@ -48,3 +48,9 @@ for i in range(generationSize):
             print()
         errors.append(error)
     print(errors)
+
+
+
+
+
+    <# TODO: remove all javascript and replace with turtle or matplotlib
