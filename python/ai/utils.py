@@ -25,7 +25,7 @@ def writeToDb(dictionary,matches, generation):
     f = open("./rudimentary_database.txt", "a")
     f.write("Generation: " + str(generation) + "\n")
     f.write("Best match error: " + str(dictionary[matches[0]]) + "\n")
-    f.write("See picture: img" + str(matches[0]) + ".png" + "\n\n")
+    f.write("See picture (not yet implemented): image" + str(matches[0]) + ".png" + "\n\n")
     f.close()
     saveBestImg()
 
