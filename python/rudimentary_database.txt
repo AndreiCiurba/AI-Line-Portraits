@@ -1,0 +1,28 @@
+Generation: 0
+Best match error: 178797
+See picture (not yet implemented): image12.png
+
+Generation: 1
+Best match error: 180610
+See picture (not yet implemented): image7.png
+
+Generation: 2
+Best match error: 180610
+See picture (not yet implemented): image7.png
+
+Generation: 3
+Best match error: 180610
+See picture (not yet implemented): image7.png
+
+Generation: 4
+Best match error: 180610
+See picture (not yet implemented): image7.png
+
+Generation: 5
+Best match error: 180610
+See picture (not yet implemented): image7.png
+
+Generation: 6
+Best match error: 180610
+See picture (not yet implemented): image7.png
+
