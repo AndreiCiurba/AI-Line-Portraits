@@ -22,3 +22,4 @@ main()
 
 
 ## TODO: lookup Fail to create pixmap with Tk_GetPixmap in TkImgPhotoInstanceSetSize
+## TODO: Remove all unused js stuff
