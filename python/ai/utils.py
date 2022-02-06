@@ -1,6 +1,19 @@
 import math
 import PIL.Image
+from PIL import ImageDraw
 import numpy as np
+
+def parseMainImg():
+    #THANK YOU STACKOVERFLOW!!!
+    img=PIL.Image.open("./images/mainImg/me.png").convert("RGB")
+    npImage=np.array(img)
+    h,w=img.size
+    alpha = PIL.Image.new('L', img.size,0)
+    draw = ImageDraw.Draw(alpha)
+    draw.pieslice([0,0,h,w],0,360,fill=255)
+    npAlpha=np.array(alpha)
+    npImage=np.dstack((npImage,npAlpha))
+    PIL.Image.fromarray(npImage).save('./images/mainImg/meFinal.png')
 
 
 def parseImg(path, w, h):
@@ -21,7 +34,7 @@ def calculateError(image_array,img_array_kid,w,h):
             error = error + abs(int(image_array[i][j]) - int(img_array_kid[i][j]))
     return error
 
-def writeToDb(dictionary,matches, generation):
+def writeToDb(dictionary, matches, generation):
     f = open("./rudimentary_database.txt", "a")
     f.write("Generation: " + str(generation) + "\n")
     f.write("Best match error: " + str(dictionary[matches[0]]) + "\n")
