@@ -1,28 +1,40 @@
 Generation: 0
-Best match error: 178797
-See picture (not yet implemented): image12.png
+Best match error: 2476
+See picture (not yet implemented): image5.png
 
 Generation: 1
-Best match error: 180610
-See picture (not yet implemented): image7.png
+Best match error: 2469
+See picture (not yet implemented): image8.png
 
 Generation: 2
-Best match error: 180610
+Best match error: 2447
 See picture (not yet implemented): image7.png
 
 Generation: 3
-Best match error: 180610
-See picture (not yet implemented): image7.png
+Best match error: 2447
+See picture (not yet implemented): image0.png
 
 Generation: 4
-Best match error: 180610
-See picture (not yet implemented): image7.png
+Best match error: 2447
+See picture (not yet implemented): image0.png
 
 Generation: 5
-Best match error: 180610
-See picture (not yet implemented): image7.png
+Best match error: 2447
+See picture (not yet implemented): image0.png
 
 Generation: 6
-Best match error: 180610
-See picture (not yet implemented): image7.png
+Best match error: 2447
+See picture (not yet implemented): image0.png
+
+Generation: 7
+Best match error: 2447
+See picture (not yet implemented): image0.png
+
+Generation: 8
+Best match error: 2447
+See picture (not yet implemented): image0.png
+
+Generation: 9
+Best match error: 2447
+See picture (not yet implemented): image0.png
 

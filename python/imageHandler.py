@@ -6,19 +6,27 @@ import ai.utils as utils
 
 
 def main():
-    generationSize = 100
-    numberOfKids = 24
-    w = 40
-    h = 40
-    points = 96
-    arrLength = 200
+    generation_size = 10
+    number_of_kids = 12
+    w = 10
+    h = 10
+    points = 24
+    arr_length = 100
 
-    mainImgPath = "./images/mainImg/me.png"
-    image_array = utils.parseImg(mainImgPath, w, h)
+
+    utils.parseMainImg()
+    main_img_path = "./images/mainImg/meFinal.png"
+    main_image_final = utils.parseImg(main_img_path, w, h)
+
 
     utils.clearDb()
-    alg.startGenerating(generationSize, numberOfKids,image_array, w, h, points, arrLength)
+    print("Database initialized")
+    alg.startGenerating(generation_size, number_of_kids,main_image_final, w, h, points, arr_length)
+
+
 main()
 
 
-## TODO: lookup Fail to create pixmap with Tk_GetPixmap in TkImgPhotoInstanceSetSize
+### TODO: tune the values for the plotting matplotlib
+## TODO: save image to a folder
+# use tkinter to make a UI
